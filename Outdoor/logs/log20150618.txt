@@ -1,0 +1,49 @@
+2015-06-18 16:15:18,860[178]>>RollingLogFileAppender> 通用点位框架.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-06-18 16:15:39,353[270]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-06-18 16:15:40,533[270]>>RollingLogFileAppender> AddTask.Resolve() errornum=43 err=System.InvalidCastException: Unable to cast object of type 'NPOI.XSSF.UserModel.XSSFCell' to type 'System.IConvertible'.
+   在 System.Convert.ToDateTime(Object value)
+   在 AutoRadio.RadioSmart.Common.ConvertHelper.GetDateTime(Object obj)
+   在 Outdoor.monitor.AddTask.Resolve(Int32 tid, String path, String file) 位置 E:\www\Outdoor-1\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 172
+2015-06-18 16:16:05,673[186]>>RollingLogFileAppender> 通用点位框架.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-06-18 16:16:11,528[191]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-06-18 16:18:00,268[191]>>RollingLogFileAppender> AddTask.Resolve() errornum=43 err=System.InvalidCastException: Unable to cast object of type 'NPOI.XSSF.UserModel.XSSFCell' to type 'System.IConvertible'.
+   在 System.Convert.ToDateTime(Object value)
+   在 AutoRadio.RadioSmart.Common.ConvertHelper.GetDateTime(Object obj)
+   在 Outdoor.monitor.AddTask.Resolve(Int32 tid, String path, String file) 位置 E:\www\Outdoor-1\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 172
+2015-06-18 16:20:17,552[158]>>RollingLogFileAppender> 通用点位框架.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-06-18 16:20:23,840[176]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-06-18 16:22:58,068[176]>>RollingLogFileAppender> AddTask.Resolve() errornum=43 err=System.InvalidCastException: Unable to cast object of type 'NPOI.XSSF.UserModel.XSSFCell' to type 'System.IConvertible'.
+   在 System.Convert.ToDateTime(Object value)
+   在 AutoRadio.RadioSmart.Common.ConvertHelper.GetDateTime(Object obj)
+   在 Outdoor.monitor.AddTask.Resolve(Int32 tid, String path, String file) 位置 E:\www\Outdoor-1\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 172
+2015-06-18 16:23:05,142[151]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-06-18 16:23:05,676[151]>>RollingLogFileAppender> AddTask.Resolve() errornum=43 err=System.InvalidCastException: Unable to cast object of type 'NPOI.XSSF.UserModel.XSSFCell' to type 'System.IConvertible'.
+   在 System.Convert.ToDateTime(Object value)
+   在 AutoRadio.RadioSmart.Common.ConvertHelper.GetDateTime(Object obj)
+   在 Outdoor.monitor.AddTask.Resolve(Int32 tid, String path, String file) 位置 E:\www\Outdoor-1\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 172
+2015-06-18 16:23:10,170[151]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-06-18 16:26:39,667[151]>>RollingLogFileAppender> AddTask.Resolve() errornum=1 err=System.Data.SqlClient.SqlException (0x80131904): INSERT 语句与 FOREIGN KEY 约束"FK__TaskProject__TId__0F624AF8"冲突。该冲突发生于数据库"OutdoorMonitor"，表"dbo.Task", column 'TId'。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 AutoRadio.RadioSmart.Common.Data.SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Dal.Monitor.AddTaskProject(TaskProject model) 位置 E:\www\Outdoor-1\Outdoor\Dal\Monitor.cs:行号 181
+   在 Outdoor.monitor.AddTask.Resolve(Int32 tid, String path, String file) 位置 E:\www\Outdoor-1\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 178
+ClientConnectionId:9dfdeb2c-cfd5-47d2-b2c0-0ca5ee85c19f
+Error Number:547,State:0,Class:16
+2015-06-18 16:28:08,777[282]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-06-18 16:28:09,225[282]>>RollingLogFileAppender> AddTask.Resolve() errornum=43 err=System.InvalidCastException: Unable to cast object of type 'NPOI.XSSF.UserModel.XSSFCell' to type 'System.IConvertible'.
+   在 System.Convert.ToDateTime(Object value)
+   在 AutoRadio.RadioSmart.Common.ConvertHelper.GetDateTime(Object obj)
+   在 Outdoor.monitor.AddTask.Resolve(Int32 tid, String path, String file) 位置 E:\www\Outdoor-1\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 172
+2015-06-18 16:28:17,888[288]>>RollingLogFileAppender> 通用点位框架.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-06-18 16:28:19,376[291]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-06-18 16:29:15,554[291]>>RollingLogFileAppender> 北京户外监测任务.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-06-18 16:29:16,762[281]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-06-18 16:29:17,867[281]>>RollingLogFileAppender> AddTask.Resolve() end

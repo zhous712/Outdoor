@@ -1,0 +1,16 @@
+2015-06-23 14:20:48,102[160]>>RollingLogFileAppender> 北京户外监测任务.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-06-23 14:20:49,922[191]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-06-23 14:20:50,703[191]>>RollingLogFileAppender> AddTask.Resolve() end
+2015-06-23 14:21:34,492[191]>>RollingLogFileAppender> 北京户外监测任务.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-06-23 14:21:35,729[127]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-06-23 14:21:35,985[127]>>RollingLogFileAppender> AddTask.Resolve() end
+2015-06-23 17:26:03,552[145]>>RollingLogFileAppender> 北京户外监测任务.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-06-23 17:26:06,123[133]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-06-23 17:26:06,568[133]>>RollingLogFileAppender> AddTask.Resolve() errornum=2 err=System.InvalidCastException: Unable to cast object of type 'NPOI.XSSF.UserModel.XSSFCell' to type 'System.IConvertible'.
+   在 System.Convert.ToDateTime(Object value)
+   在 AutoRadio.RadioSmart.Common.ConvertHelper.GetDateTime(Object obj)
+   在 Outdoor.monitor.AddTask.Resolve(Int32 tid, String path, String file) 位置 E:\www\Outdoor-1\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 187
+2015-06-23 17:26:06,574[133]>>RollingLogFileAppender> AddTask.Resolve() end
+2015-06-23 17:26:30,400[154]>>RollingLogFileAppender> 北京户外监测任务.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-06-23 17:26:31,722[150]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-06-23 17:26:31,735[150]>>RollingLogFileAppender> AddTask.Resolve() end

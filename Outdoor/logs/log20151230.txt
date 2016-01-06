@@ -1,0 +1,5 @@
+2015-12-30 15:30:20,304[12]>>RollingLogFileAppender> IMG_20150925_131945.jpg的contentType=image/jpeg；fileType=jpg
+2015-12-30 16:15:12,514[69]>>RollingLogFileAppender> 6.jpg的contentType=image/jpeg；fileType=jpg
+2015-12-30 16:15:23,732[69]>>RollingLogFileAppender> huawei.jpg的contentType=image/jpeg；fileType=jpg
+2015-12-30 16:18:34,020[11]>>RollingLogFileAppender> IMG_20150925_131945.jpg的contentType=image/jpeg；fileType=jpg
+2015-12-30 16:24:49,234[67]>>RollingLogFileAppender> IMG_20150925_131945.jpg的contentType=image/jpeg；fileType=jpg

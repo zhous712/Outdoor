@@ -1,0 +1,26 @@
+2015-05-17 10:06:17,169[10]>>RollingLogFileAppender> Koala.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-17 10:30:10,248[7]>>RollingLogFileAppender> Koala.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-17 10:30:20,171[6]>>RollingLogFileAppender> 数据库字段.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-05-17 10:30:33,514[6]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-05-17 10:30:35,116[6]>>RollingLogFileAppender> AddTask.Resolve() end
+2015-05-17 10:32:52,507[11]>>RollingLogFileAppender> Koala.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-17 10:32:55,608[6]>>RollingLogFileAppender> 数据库字段.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-05-17 10:32:56,725[8]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-05-17 10:32:57,200[8]>>RollingLogFileAppender> AddTask.Resolve() errornum=1 err=System.InvalidCastException: 无法将类型为“NPOI.XSSF.UserModel.XSSFCell”的对象强制转换为类型“System.IConvertible”。
+   在 System.Convert.ToDecimal(Object value)
+   在 Outdoor.monitor.AddTask.Resolve(Int32 tid, String path, String file) 位置 F:\zs\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 165
+2015-05-17 10:32:57,212[8]>>RollingLogFileAppender> AddTask.Resolve() end
+2015-05-17 10:33:33,355[16]>>RollingLogFileAppender> 数据库字段.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-05-17 10:33:36,523[14]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-05-17 10:33:36,765[14]>>RollingLogFileAppender> AddTask.Resolve() end
+2015-05-17 10:34:14,320[14]>>RollingLogFileAppender> Koala.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-17 10:34:19,085[16]>>RollingLogFileAppender> 数据库字段.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-05-17 10:34:20,347[8]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-05-17 10:34:20,625[8]>>RollingLogFileAppender> AddTask.Resolve() end
+2015-05-17 10:35:31,422[14]>>RollingLogFileAppender> Koala.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-17 10:35:34,602[15]>>RollingLogFileAppender> 数据库字段.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-05-17 10:35:39,786[16]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-05-17 10:37:25,614[16]>>RollingLogFileAppender> AddTask.Resolve() end
+2015-05-17 10:42:34,500[26]>>RollingLogFileAppender> Koala.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-17 10:42:37,245[6]>>RollingLogFileAppender> 数据库字段.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-05-17 10:42:38,150[26]>>RollingLogFileAppender> AddTask.Resolve() begin

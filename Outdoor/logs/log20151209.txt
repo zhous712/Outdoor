@@ -1,0 +1,8 @@
+2015-12-09 10:48:22,119[25]>>RollingLogFileAppender> IMG_20150925_131945.jpg的contentType=image/jpeg；fileType=jpg
+2015-12-09 10:48:31,257[13]>>RollingLogFileAppender> 635810336358051343.jpg的contentType=image/jpeg；fileType=jpg
+2015-12-09 10:48:34,015[25]>>RollingLogFileAppender> 635810336358051343.jpg的contentType=image/jpeg；fileType=jpg
+2015-12-09 10:55:07,955[17]>>RollingLogFileAppender> 635810336358051343.jpg的contentType=image/jpeg；fileType=jpg
+2015-12-09 10:57:14,651[42]>>RollingLogFileAppender> 635810336358051343.jpg的contentType=image/jpeg；fileType=jpg
+2015-12-09 10:58:56,866[25]>>RollingLogFileAppender> 635810336358051343.jpg的contentType=image/jpeg；fileType=jpg
+2015-12-09 11:54:33,930[10]>>RollingLogFileAppender> 635810336358051343.jpg的contentType=image/jpeg；fileType=jpg
+2015-12-09 13:45:51,227[28]>>RollingLogFileAppender> 635810336358051343.jpg的contentType=image/jpeg；fileType=jpg

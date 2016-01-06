@@ -1,0 +1,1 @@
+2015-12-07 17:49:51,444[80]>>RollingLogFileAppender> IMG_20150925_131945.jpgµÄcontentType=image/jpeg£»fileType=jpg

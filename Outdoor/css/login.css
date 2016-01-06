@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* log and reg */
+#reg{ padding-left:200px; padding-right:80px; padding-top:10px;}
+.tips{ *display:inline-block; *zoom:1; background:#aae0f3; padding:2px 10px; overflow:hidden;}
+.fileNew{ *display:inline-block; *zoom:1; padding-bottom:10px; overflow:hidden;}
+.code{ float:left;}
+.look{ padding-left:10px;}
+#reg .look{ padding-left:66px; }
+.Pact{ width:540px; height:110px; overflow-x:hidden; overflow-y:scroll; border:#c6cbd2 solid 1px; margin-top:3px; padding:2px 10px; line-height:22px;}
+#log{ padding:60px 0 60px 540px; height:280px; position:relative;}
+.logStyle{ position:absolute; left:0px; top:20px; width:540px;  text-align:center;}
+.log{ height:220px; padding-left:50px; padding-top:60px; background:url(../images/bg_login_gap.jpg) left center no-repeat;}
+
+/* myRadiobuy */
+#myRadiobuy{}
+#myRadiobuy .main{ float:right; display:inline; width:750px; border-top:#3d9fba solid 1px; background:url(../images/bg_bodycenter_1px.png) top repeat-x;}
+.beTo{ float:left; display:inline; padding:30px 0 0 50px; font-family:"宋体"; color:#6e6e6e;}
+.beTo h1{ font-weight:bold; font-size:14px; padding-bottom:15px;}
+.beTo p{ padding-bottom:10px;}
+.beTo p span{ display:inline-block; width:170px;}
+.beTo p em{ font-size:14px; font-family:Tahoma;}
+.view{ float:right; width:272px; padding-top:38px; overflow:hidden;}
+.view span{ display:block; margin-bottom:30px;}
+.view .btnYellow{ width:114px; text-align:center; padding:6px 0 0;}
+.my_left{ margin-bottom:20px;}
+.userSet{ padding-left:20px; padding-right:55px; padding-top:20px;}
+.cheakBox{ width:40px;}
+.page{ position:relative;}
+.cheakIn{ position:absolute; left:4px; *left:3px; top:3px; width:80px; margin-left:6px; text-align:center;}
+.check_all { margin-top:10px}
+.cheakIn_all{
+    margin-left: 10px;
+    text-align: center;
+    width: 80px;}
+.total{ position:absolute; right:20px; top:3px; *top:6px;}
+.total em{}
+.newTask{ padding:120px 0 120px 220px; font-size:14px; font-weight:bold;}
+.newTask img{ vertical-align:middle; margin:0 10px;}
+a.green,a.green:visited{ color:#0074bc; text-decoration:underline;}
+a.btnYellow,a.btnYellow:visited{ color:#fff;}
+
+/* 修改音频 */
+.brand{ color:#0074bc; font-family:"微软雅黑","Tahoma, Geneva, sans-serif"; font-size:14px; padding:10px 0 5px 100px; }
+.editRadio{ padding:20px 50px 0 50px;}
+.ser_radio{ padding:20px 10px 0; width:600px; }
+.editRadio .item label{ width:25%;}
+.editRadio .of2,.editRadio .of3{ padding-left:26%; width:74%;}
+.cheackRadio{*display:inline-block; *zoom:1; width:410px;}
+.cheackRadio div{ float:left; display:inline; *zoom:1; width:50%; height:18px; margin-bottom:6px; overflow:hidden;}
+
+
+.cheakIn_all_email{margin-left:12px;width: 156px;}
+.btn_center { text-align:center}
+
+
+/**宽度调整为1000px**/
+#myRadiobuy .main{ width:790px;}
+.newTask{ text-align:center; padding-left:0;}
+.view{ width:auto; padding-right:80px;}
+.beTo{ padding:40px 0 0 80px;}
+.beTo p{ padding-left:2px;}

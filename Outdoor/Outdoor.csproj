@@ -1,0 +1,955 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D427461E-507E-4A30-9635-4EA9B043BF6B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Outdoor</RootNamespace>
+    <AssemblyName>Outdoor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Excel">
+      <HintPath>..\CommonDll\Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\CommonDll\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\CommonDll\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.0.8.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonDll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=1.2.5.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CommonDll\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML">
+      <HintPath>..\CommonDll\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net">
+      <HintPath>..\CommonDll\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats">
+      <HintPath>..\CommonDll\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="RadioSmart.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CommonDll\RadioSmart.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="RadioSmart.Common.Pdf">
+      <HintPath>..\CommonDll\RadioSmart.Common.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="css\base.css" />
+    <Content Include="css\error.css" />
+    <Content Include="css\help.css" />
+    <Content Include="css\index.css" />
+    <Content Include="css\login.css" />
+    <Content Include="css\my_radio.css" />
+    <Content Include="css\paiqi.css" />
+    <Content Include="Error.aspx" />
+    <Content Include="images\14_li_bg.gif" />
+    <Content Include="images\400.jpg" />
+    <Content Include="images\ad.gif" />
+    <Content Include="images\ad.png" />
+    <Content Include="images\add.gif" />
+    <Content Include="images\adTagsbg.gif" />
+    <Content Include="images\all_bg.gif" />
+    <Content Include="images\alt1.gif" />
+    <Content Include="images\alt2.gif" />
+    <Content Include="images\arror.gif" />
+    <Content Include="images\arror.png" />
+    <Content Include="images\arror_b.png" />
+    <Content Include="images\arrow.gif" />
+    <Content Include="images\arrow.png" />
+    <Content Include="images\arrow_black_left.gif" />
+    <Content Include="images\arrow_black_right.gif" />
+    <Content Include="images\arrow_gray_left.gif" />
+    <Content Include="images\arrow_gray_right.gif" />
+    <Content Include="images\arrow_white_bottom.gif" />
+    <Content Include="images\arrow_yellow_top.gif" />
+    <Content Include="images\art1.gif" />
+    <Content Include="images\art2.gif" />
+    <Content Include="images\Avatar.gif" />
+    <Content Include="images\back.png" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\bar_a.gif" />
+    <Content Include="images\bar_b.gif" />
+    <Content Include="images\base.gif" />
+    <Content Include="images\belink.gif" />
+    <Content Include="images\beta.gif" />
+    <Content Include="images\bg.jpg" />
+    <Content Include="images\bg1.jpg" />
+    <Content Include="images\bg_2.jpg" />
+    <Content Include="images\bg_6.gif" />
+    <Content Include="images\bg_7.gif" />
+    <Content Include="images\bg_bodycenter_1px.png" />
+    <Content Include="images\bg_breadCrumb.png" />
+    <Content Include="images\bg_btn_blue.png" />
+    <Content Include="images\bg_btn_gray.jpg" />
+    <Content Include="images\bg_btn_gray.png" />
+    <Content Include="images\bg_btn_gy.png" />
+    <Content Include="images\bg_btn_yellow.png" />
+    <Content Include="images\bg_con_l.png" />
+    <Content Include="images\bg_fast_blue.jpg" />
+    <Content Include="images\bg_form_hd.gif" />
+    <Content Include="images\bg_gray_x1px.gif" />
+    <Content Include="images\bg_gray_y1px.gif" />
+    <Content Include="images\bg_index_title.gif" />
+    <Content Include="images\bg_kanli_yellow.jpg" />
+    <Content Include="images\bg_login_gap.gif" />
+    <Content Include="images\bg_login_gap.jpg" />
+    <Content Include="images\bg_search.png" />
+    <Content Include="images\bg_search_green_1px.gif" />
+    <Content Include="images\bg_slt.gif" />
+    <Content Include="images\bg_th.gif" />
+    <Content Include="images\bike.gif" />
+    <Content Include="images\bingt1.jpg" />
+    <Content Include="images\bor1px.jpg" />
+    <Content Include="images\bor2.gif" />
+    <Content Include="images\bor_1.png" />
+    <Content Include="images\bor_bot_bg.gif" />
+    <Content Include="images\bor_zx.gif" />
+    <Content Include="images\bot_bg.gif" />
+    <Content Include="images\bot_up.png" />
+    <Content Include="images\boy.gif" />
+    <Content Include="images\btn.png" />
+    <Content Include="images\but_bg.gif" />
+    <Content Include="images\chose_bg.gif" />
+    <Content Include="images\city_ad_audio.gif" />
+    <Content Include="images\city_dt_arr.gif" />
+    <Content Include="images\clear.gif" />
+    <Content Include="images\close.png" />
+    <Content Include="images\custTagbg.gif" />
+    <Content Include="images\czIco.png" />
+    <Content Include="images\date.gif" />
+    <Content Include="images\date_yellow.gif" />
+    <Content Include="images\default.gif" />
+    <Content Include="images\defa_arr.gif" />
+    <Content Include="images\del.gif" />
+    <Content Include="images\delete.gif" />
+    <Content Include="images\dhc.gif" />
+    <Content Include="images\dhc.jpg" />
+    <Content Include="images\dhc.png" />
+    <Content Include="images\disc.gif" />
+    <Content Include="images\dl.gif" />
+    <Content Include="images\dotted.gif" />
+    <Content Include="images\down.gif" />
+    <Content Include="images\down_bg.gif" />
+    <Content Include="images\dt_arr.gif" />
+    <Content Include="images\dw_bg.gif" />
+    <Content Include="images\dw_mbg.gif" />
+    <Content Include="images\dw_right_bg.gif" />
+    <Content Include="images\dw_td.gif" />
+    <Content Include="images\error.jpg" />
+    <Content Include="images\error_font.gif" />
+    <Content Include="images\firstpage.jpg" />
+    <Content Include="images\firstpage1.jpg" />
+    <Content Include="images\firstpage2.jpg" />
+    <Content Include="images\firstpage3.jpg" />
+    <Content Include="images\firstpage5.jpg" />
+    <Content Include="images\footer.gif" />
+    <Content Include="images\formhd.gif" />
+    <Content Include="images\free_btn.gif" />
+    <Content Include="images\free_icon.gif" />
+    <Content Include="images\free_icon.png" />
+    <Content Include="images\f_rzstep.jpg" />
+    <Content Include="images\gray.gif" />
+    <Content Include="images\green.gif" />
+    <Content Include="images\guest.gif" />
+    <Content Include="images\g_line.gif" />
+    <Content Include="images\help\cbg_1.png" />
+    <Content Include="images\help\cj_rw1.jpg" />
+    <Content Include="images\help\cj_rw2.jpg" />
+    <Content Include="images\help\cj_rw3.jpg" />
+    <Content Include="images\help\dl_1.jpg" />
+    <Content Include="images\help\dl_2.jpg" />
+    <Content Include="images\help\my_rbuy1.jpg" />
+    <Content Include="images\help\my_rbuy2.jpg" />
+    <Content Include="images\help\rw_1.jpg" />
+    <Content Include="images\help\zc_1.jpg" />
+    <Content Include="images\help\zc_2.jpg" />
+    <Content Include="images\help\zhm_1.jpg" />
+    <Content Include="images\help\zhm_2.jpg" />
+    <Content Include="images\help\zhm_3.jpg" />
+    <Content Include="images\hover.gif" />
+    <Content Include="images\icon.gif" />
+    <Content Include="images\icon_big.gif" />
+    <Content Include="images\icon_new.png" />
+    <Content Include="images\ico_edit.gif" />
+    <Content Include="images\ico_pen.gif" />
+    <Content Include="images\img\Chart_000005.png" />
+    <Content Include="images\img\state.ashx.jpg" />
+    <Content Include="images\img_cj_1.gif" />
+    <Content Include="images\img_cj_2.gif" />
+    <Content Include="images\img_cj_3.gif" />
+    <Content Include="images\img_cj_4.gif" />
+    <Content Include="images\img_code.png" />
+    <Content Include="images\img_code_01.png" />
+    <Content Include="images\img_dl_1.gif" />
+    <Content Include="images\img_dl_2.gif" />
+    <Content Include="images\img_error.gif" />
+    <Content Include="images\img_error.png" />
+    <Content Include="images\img_fastjpin.jpg" />
+    <Content Include="images\img_fastkanli.jpg" />
+    <Content Include="images\img_fastRadiobuy.jpg" />
+    <Content Include="images\img_kanli_blue.jpg" />
+    <Content Include="images\img_kl_1.gif" />
+    <Content Include="images\img_kl_2.gif" />
+    <Content Include="images\img_kl_3.gif" />
+    <Content Include="images\img_my_1.gif" />
+    <Content Include="images\img_my_2.gif" />
+    <Content Include="images\img_my_3.gif" />
+    <Content Include="images\img_my_4.gif" />
+    <Content Include="images\img_my_5.gif" />
+    <Content Include="images\img_my_6.gif" />
+    <Content Include="images\img_note.png" />
+    <Content Include="images\img_radio_cnr.jpg" />
+    <Content Include="images\img_radio_gz.jpg" />
+    <Content Include="images\img_radio_xihu.jpg" />
+    <Content Include="images\img_user_dazhong.jpg" />
+    <Content Include="images\img_user_haier.jpg" />
+    <Content Include="images\img_user_midea.jpg" />
+    <Content Include="images\img_user_picc.jpg" />
+    <Content Include="images\img_watch.gif" />
+    <Content Include="images\img_yl_1.gif" />
+    <Content Include="images\img_yl_1.jpg" />
+    <Content Include="images\img_yl_2.gif" />
+    <Content Include="images\index_01.jpg" />
+    <Content Include="images\index_02.jpg" />
+    <Content Include="images\index_03.jpg" />
+    <Content Include="images\index_04.jpg" />
+    <Content Include="images\indicator.gif" />
+    <Content Include="images\ind_quan.gif" />
+    <Content Include="images\ind_quan.png" />
+    <Content Include="images\input_bg.gif" />
+    <Content Include="images\intro1.png" />
+    <Content Include="images\intro2.png" />
+    <Content Include="images\intro3.gif" />
+    <Content Include="images\intro3.png" />
+    <Content Include="images\kanli_index_01.jpg" />
+    <Content Include="images\kanli_index_02.jpg" />
+    <Content Include="images\kanli_index_03.jpg" />
+    <Content Include="images\kanli_index_04.jpg" />
+    <Content Include="images\kanl_bg.gif" />
+    <Content Include="images\kanl_bg.png" />
+    <Content Include="images\kl_bg.gif" />
+    <Content Include="images\lastpage.jpg" />
+    <Content Include="images\lexus.jpg" />
+    <Content Include="images\li.gif" />
+    <Content Include="images\line.gif" />
+    <Content Include="images\linkwidows_arr.gif" />
+    <Content Include="images\li_arr.gif" />
+    <Content Include="images\li_gray_1px.gif" />
+    <Content Include="images\li_y.gif" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\loading\loading1.gif" />
+    <Content Include="images\loading\loading10.gif" />
+    <Content Include="images\loading\loading11.gif" />
+    <Content Include="images\loading\loading12.gif" />
+    <Content Include="images\loading\loading2.gif" />
+    <Content Include="images\loading\loading3.gif" />
+    <Content Include="images\loading\loading4.gif" />
+    <Content Include="images\loading\loading5.gif" />
+    <Content Include="images\loading\loading6.gif" />
+    <Content Include="images\loading\loading7.gif" />
+    <Content Include="images\loading\loading8.gif" />
+    <Content Include="images\loading\loading9.gif" />
+    <Content Include="images\load_icon.gif" />
+    <Content Include="images\load_li.gif" />
+    <Content Include="images\logo.gif" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\logo_32.png" />
+    <Content Include="images\logo_bg.gif" />
+    <Content Include="images\logo_bg.png" />
+    <Content Include="images\mail_b.gif" />
+    <Content Include="images\mainStyle.jpg" />
+    <Content Include="images\map.gif" />
+    <Content Include="images\menu_bg.gif" />
+    <Content Include="images\menu_bg.png" />
+    <Content Include="images\menu_li.gif" />
+    <Content Include="images\menu_tit.gif" />
+    <Content Include="images\m_bg.gif" />
+    <Content Include="images\m_hover.gif" />
+    <Content Include="images\new.gif" />
+    <Content Include="images\new_btn.gif" />
+    <Content Include="images\no_kt.gif" />
+    <Content Include="images\no_net.jpg" />
+    <Content Include="images\no_pay.jpg" />
+    <Content Include="images\no_start.jpg" />
+    <Content Include="images\okay.png" />
+    <Content Include="images\oper_arr.gif" />
+    <Content Include="images\paiqi_header_bg.gif" />
+    <Content Include="images\paiqi_period.gif" />
+    <Content Include="images\position.gif" />
+    <Content Include="images\ptab_tit.gif" />
+    <Content Include="images\p_butbg.gif" />
+    <Content Include="images\qiang.gif" />
+    <Content Include="images\qu1.gif" />
+    <Content Include="images\quan_xian.png" />
+    <Content Include="images\radio_edit.png" />
+    <Content Include="images\radio_listen.png" />
+    <Content Include="images\radio_sign.gif" />
+    <Content Include="images\red_close.jpg" />
+    <Content Include="images\regist_ok1.gif" />
+    <Content Include="images\resave.gif" />
+    <Content Include="images\rightArrow.gif" />
+    <Content Include="images\ruo.gif" />
+    <Content Include="images\search.png" />
+    <Content Include="images\site_arr.gif" />
+    <Content Include="images\sma.gif" />
+    <Content Include="images\smart.jpg" />
+    <Content Include="images\status_a.png" />
+    <Content Include="images\status_b.png" />
+    <Content Include="images\status_c.png" />
+    <Content Include="images\status_d.png" />
+    <Content Include="images\status_e.png" />
+    <Content Include="images\status_f.png" />
+    <Content Include="images\sub_banner.jpg" />
+    <Content Include="images\tab_edit.gif" />
+    <Content Include="images\tab_edit.png" />
+    <Content Include="images\tab_tit.gif" />
+    <Content Include="images\tbot.gif" />
+    <Content Include="images\tbot.png" />
+    <Content Include="images\tel.gif" />
+    <Content Include="images\tel.png" />
+    <Content Include="images\tel_400.png" />
+    <Content Include="images\title_yl_1.gif" />
+    <Content Include="images\title_yl_2.gif" />
+    <Content Include="images\tj_btu.jpg" />
+    <Content Include="images\top_mail.gif" />
+    <Content Include="images\top_mail.jpg" />
+    <Content Include="images\transparent.gif" />
+    <Content Include="images\triangle.png" />
+    <Content Include="images\ttop.gif" />
+    <Content Include="images\ttop.png" />
+    <Content Include="images\txtbg.gif" />
+    <Content Include="images\up.gif" />
+    <Content Include="images\up_mp.gif" />
+    <Content Include="images\userlogo\img_user_1qi.jpg" />
+    <Content Include="images\userlogo\img_user_bmw.jpg" />
+    <Content Include="images\userlogo\img_user_bq.jpg" />
+    <Content Include="images\userlogo\img_user_buick.jpg" />
+    <Content Include="images\userlogo\img_user_ccic.jpg" />
+    <Content Include="images\userlogo\img_user_citroen.jpg" />
+    <Content Include="images\userlogo\img_user_cpic.jpg" />
+    <Content Include="images\userlogo\img_user_dihao.jpg" />
+    <Content Include="images\userlogo\img_user_ekingo.jpg" />
+    <Content Include="images\userlogo\img_user_futian.jpg" />
+    <Content Include="images\userlogo\img_user_gome.jpg" />
+    <Content Include="images\userlogo\img_user_gongshang.jpg" />
+    <Content Include="images\userlogo\img_user_gqcq.jpg" />
+    <Content Include="images\userlogo\img_user_gree.jpg" />
+    <Content Include="images\userlogo\img_user_guangda.jpg" />
+    <Content Include="images\userlogo\img_user_haier.jpg" />
+    <Content Include="images\userlogo\img_user_hankook.jpg" />
+    <Content Include="images\userlogo\img_user_hongniu.jpg" />
+    <Content Include="images\userlogo\img_user_hyundai.jpg" />
+    <Content Include="images\userlogo\img_user_jianhang.jpg" />
+    <Content Include="images\userlogo\img_user_jintai.jpg" />
+    <Content Include="images\userlogo\img_user_lotus.jpg" />
+    <Content Include="images\userlogo\img_user_mengniu.jpg" />
+    <Content Include="images\userlogo\img_user_nissan.jpg" />
+    <Content Include="images\userlogo\img_user_pingan.jpg" />
+    <Content Include="images\userlogo\img_user_suning.jpg" />
+    <Content Include="images\userlogo\img_user_tfx.jpg" />
+    <Content Include="images\userlogo\img_user_xfl.jpg" />
+    <Content Include="images\userlogo\img_user_yili.jpg" />
+    <Content Include="images\userlogo\img_user_zf.jpg" />
+    <Content Include="images\userlogo\img_user_zhongtai.jpg" />
+    <Content Include="images\userlogo\img_user_zhongxin.jpg" />
+    <Content Include="images\wu_jieguo.jpg" />
+    <Content Include="images\wxjt.jpg" />
+    <Content Include="images\w_dw.gif" />
+    <Content Include="images\w_dwon.gif" />
+    <Content Include="images\w_wadd_btn.gif" />
+    <Content Include="images\yuan.gif" />
+    <Content Include="images\y_chek.gif" />
+    <Content Include="images\y_log_control.gif" />
+    <Content Include="images\y_nochek.gif" />
+    <Content Include="images\y_tkbg.gif" />
+    <Content Include="images\zhong.gif" />
+    <Content Include="js\ajaxupload\ajaxupload.js" />
+    <Content Include="js\ajaxupload\images\sloading.gif" />
+    <Content Include="js\artDialog4.1.6\artDialog.js" />
+    <Content Include="js\artDialog4.1.6\artDialog.source.js" />
+    <Content Include="js\artDialog4.1.6\index.html" />
+    <Content Include="js\artDialog4.1.6\jquery.alert.js" />
+    <Content Include="js\artDialog4.1.6\jquery.artDialog.js" />
+    <Content Include="js\artDialog4.1.6\jquery.artDialog.source.js" />
+    <Content Include="js\artDialog4.1.6\license.txt" />
+    <Content Include="js\artDialog4.1.6\plugins\iframeTools.js" />
+    <Content Include="js\artDialog4.1.6\plugins\iframeTools.source.js" />
+    <Content Include="js\artDialog4.1.6\skins\aero.css" />
+    <Content Include="js\artDialog4.1.6\skins\aero\aero_s.png" />
+    <Content Include="js\artDialog4.1.6\skins\aero\aero_s2.png" />
+    <Content Include="js\artDialog4.1.6\skins\aero\ie6\aui_close.hover.png" />
+    <Content Include="js\artDialog4.1.6\skins\aero\ie6\aui_close.png" />
+    <Content Include="js\artDialog4.1.6\skins\aero\ie6\aui_e.png" />
+    <Content Include="js\artDialog4.1.6\skins\aero\ie6\aui_n.png" />
+    <Content Include="js\artDialog4.1.6\skins\aero\ie6\aui_ne.png" />
+    <Content Include="js\artDialog4.1.6\skins\aero\ie6\aui_nw.png" />
+    <Content Include="js\artDialog4.1.6\skins\aero\ie6\aui_s.png" />
+    <Content Include="js\artDialog4.1.6\skins\aero\ie6\aui_se.png" />
+    <Content Include="js\artDialog4.1.6\skins\aero\ie6\aui_sw.png" />
+    <Content Include="js\artDialog4.1.6\skins\aero\ie6\aui_title_icon.png" />
+    <Content Include="js\artDialog4.1.6\skins\aero\ie6\aui_w.png" />
+    <Content Include="js\artDialog4.1.6\skins\black.css" />
+    <Content Include="js\artDialog4.1.6\skins\black\bg.png" />
+    <Content Include="js\artDialog4.1.6\skins\black\bg2.png" />
+    <Content Include="js\artDialog4.1.6\skins\black\bg_css3.png" />
+    <Content Include="js\artDialog4.1.6\skins\black\bg_css3_2.png" />
+    <Content Include="js\artDialog4.1.6\skins\black\ie6\close.hover.png" />
+    <Content Include="js\artDialog4.1.6\skins\black\ie6\close.png" />
+    <Content Include="js\artDialog4.1.6\skins\black\ie6\e.png" />
+    <Content Include="js\artDialog4.1.6\skins\black\ie6\n.png" />
+    <Content Include="js\artDialog4.1.6\skins\black\ie6\ne.png" />
+    <Content Include="js\artDialog4.1.6\skins\black\ie6\nw.png" />
+    <Content Include="js\artDialog4.1.6\skins\black\ie6\s.png" />
+    <Content Include="js\artDialog4.1.6\skins\black\ie6\se.png" />
+    <Content Include="js\artDialog4.1.6\skins\black\ie6\sw.png" />
+    <Content Include="js\artDialog4.1.6\skins\black\ie6\w.png" />
+    <Content Include="js\artDialog4.1.6\skins\blue.css" />
+    <Content Include="js\artDialog4.1.6\skins\blue\bg.png" />
+    <Content Include="js\artDialog4.1.6\skins\blue\bg2.png" />
+    <Content Include="js\artDialog4.1.6\skins\blue\bg_css3.png" />
+    <Content Include="js\artDialog4.1.6\skins\blue\bg_css3_2.png" />
+    <Content Include="js\artDialog4.1.6\skins\blue\ie6\close.hover.png" />
+    <Content Include="js\artDialog4.1.6\skins\blue\ie6\close.png" />
+    <Content Include="js\artDialog4.1.6\skins\blue\ie6\e.png" />
+    <Content Include="js\artDialog4.1.6\skins\blue\ie6\n.png" />
+    <Content Include="js\artDialog4.1.6\skins\blue\ie6\ne.png" />
+    <Content Include="js\artDialog4.1.6\skins\blue\ie6\nw.png" />
+    <Content Include="js\artDialog4.1.6\skins\blue\ie6\s.png" />
+    <Content Include="js\artDialog4.1.6\skins\blue\ie6\se.png" />
+    <Content Include="js\artDialog4.1.6\skins\blue\ie6\sw.png" />
+    <Content Include="js\artDialog4.1.6\skins\blue\ie6\w.png" />
+    <Content Include="js\artDialog4.1.6\skins\chrome.css" />
+    <Content Include="js\artDialog4.1.6\skins\chrome\border.png" />
+    <Content Include="js\artDialog4.1.6\skins\chrome\chrome_s.png" />
+    <Content Include="js\artDialog4.1.6\skins\default.css" />
+    <Content Include="js\artDialog4.1.6\skins\green.css" />
+    <Content Include="js\artDialog4.1.6\skins\green\bg.png" />
+    <Content Include="js\artDialog4.1.6\skins\green\bg2.png" />
+    <Content Include="js\artDialog4.1.6\skins\green\bg_css3.png" />
+    <Content Include="js\artDialog4.1.6\skins\green\bg_css3_2.png" />
+    <Content Include="js\artDialog4.1.6\skins\green\color_bg.png" />
+    <Content Include="js\artDialog4.1.6\skins\green\ie6\close.hover.png" />
+    <Content Include="js\artDialog4.1.6\skins\green\ie6\close.png" />
+    <Content Include="js\artDialog4.1.6\skins\green\ie6\e.png" />
+    <Content Include="js\artDialog4.1.6\skins\green\ie6\n.png" />
+    <Content Include="js\artDialog4.1.6\skins\green\ie6\ne.png" />
+    <Content Include="js\artDialog4.1.6\skins\green\ie6\nw.png" />
+    <Content Include="js\artDialog4.1.6\skins\green\ie6\s.png" />
+    <Content Include="js\artDialog4.1.6\skins\green\ie6\se.png" />
+    <Content Include="js\artDialog4.1.6\skins\green\ie6\sw.png" />
+    <Content Include="js\artDialog4.1.6\skins\green\ie6\w.png" />
+    <Content Include="js\artDialog4.1.6\skins\grey.css" />
+    <Content Include="js\artDialog4.1.6\skins\grey\bg.png" />
+    <Content Include="js\artDialog4.1.6\skins\grey\bg2.png" />
+    <Content Include="js\artDialog4.1.6\skins\grey\bg_css3.png" />
+    <Content Include="js\artDialog4.1.6\skins\grey\bg_css3_2.png" />
+    <Content Include="js\artDialog4.1.6\skins\grey\close.png" />
+    <Content Include="js\artDialog4.1.6\skins\grey\ie6\close.hover.png" />
+    <Content Include="js\artDialog4.1.6\skins\grey\ie6\close.png" />
+    <Content Include="js\artDialog4.1.6\skins\grey\ie6\e.png" />
+    <Content Include="js\artDialog4.1.6\skins\grey\ie6\n.png" />
+    <Content Include="js\artDialog4.1.6\skins\grey\ie6\ne.png" />
+    <Content Include="js\artDialog4.1.6\skins\grey\ie6\nw.png" />
+    <Content Include="js\artDialog4.1.6\skins\grey\ie6\s.png" />
+    <Content Include="js\artDialog4.1.6\skins\grey\ie6\se.png" />
+    <Content Include="js\artDialog4.1.6\skins\grey\ie6\sw.png" />
+    <Content Include="js\artDialog4.1.6\skins\grey\ie6\w.png" />
+    <Content Include="js\artDialog4.1.6\skins\grey\pop_bg.png" />
+    <Content Include="js\artDialog4.1.6\skins\icons\error.png" />
+    <Content Include="js\artDialog4.1.6\skins\icons\face-sad.png" />
+    <Content Include="js\artDialog4.1.6\skins\icons\face-smile.png" />
+    <Content Include="js\artDialog4.1.6\skins\icons\loading.gif" />
+    <Content Include="js\artDialog4.1.6\skins\icons\question.png" />
+    <Content Include="js\artDialog4.1.6\skins\icons\succeed.png" />
+    <Content Include="js\artDialog4.1.6\skins\icons\warning.png" />
+    <Content Include="js\artDialog4.1.6\skins\idialog.css" />
+    <Content Include="js\artDialog4.1.6\skins\idialog\idialog_s.png" />
+    <Content Include="js\artDialog4.1.6\skins\idialog\idialog_s2.png" />
+    <Content Include="js\artDialog4.1.6\skins\idialog\ie6\aui_close.hover.png" />
+    <Content Include="js\artDialog4.1.6\skins\idialog\ie6\aui_close.png" />
+    <Content Include="js\artDialog4.1.6\skins\idialog\ie6\aui_e.png" />
+    <Content Include="js\artDialog4.1.6\skins\idialog\ie6\aui_n.png" />
+    <Content Include="js\artDialog4.1.6\skins\idialog\ie6\aui_ne.png" />
+    <Content Include="js\artDialog4.1.6\skins\idialog\ie6\aui_nw.png" />
+    <Content Include="js\artDialog4.1.6\skins\idialog\ie6\aui_s.png" />
+    <Content Include="js\artDialog4.1.6\skins\idialog\ie6\aui_se.png" />
+    <Content Include="js\artDialog4.1.6\skins\idialog\ie6\aui_sw.png" />
+    <Content Include="js\artDialog4.1.6\skins\idialog\ie6\aui_w.png" />
+    <Content Include="js\artDialog4.1.6\skins\opera.css" />
+    <Content Include="js\artDialog4.1.6\skins\opera\ie6\aui_close.hover.png" />
+    <Content Include="js\artDialog4.1.6\skins\opera\ie6\aui_close.png" />
+    <Content Include="js\artDialog4.1.6\skins\opera\ie6\aui_e.png" />
+    <Content Include="js\artDialog4.1.6\skins\opera\ie6\aui_n.png" />
+    <Content Include="js\artDialog4.1.6\skins\opera\ie6\aui_ne.png" />
+    <Content Include="js\artDialog4.1.6\skins\opera\ie6\aui_nw.png" />
+    <Content Include="js\artDialog4.1.6\skins\opera\ie6\aui_s.png" />
+    <Content Include="js\artDialog4.1.6\skins\opera\ie6\aui_se.png" />
+    <Content Include="js\artDialog4.1.6\skins\opera\ie6\aui_sw.png" />
+    <Content Include="js\artDialog4.1.6\skins\opera\ie6\aui_w.png" />
+    <Content Include="js\artDialog4.1.6\skins\opera\s1.png" />
+    <Content Include="js\artDialog4.1.6\skins\opera\s2.png" />
+    <Content Include="js\artDialog4.1.6\skins\simple.css" />
+    <Content Include="js\artDialog4.1.6\skins\twitter.css" />
+    <Content Include="js\artDialog4.1.6\skins\white.css" />
+    <Content Include="js\artDialog4.1.6\skins\white\bg.png" />
+    <Content Include="js\artDialog4.1.6\skins\white\bg2.png" />
+    <Content Include="js\artDialog4.1.6\skins\white\bg_css3.png" />
+    <Content Include="js\artDialog4.1.6\skins\white\bg_css3_2.png" />
+    <Content Include="js\artDialog4.1.6\skins\white\close.png" />
+    <Content Include="js\artDialog4.1.6\skins\white\ie6\close.hover.png" />
+    <Content Include="js\artDialog4.1.6\skins\white\ie6\close.png" />
+    <Content Include="js\artDialog4.1.6\skins\white\ie6\e.png" />
+    <Content Include="js\artDialog4.1.6\skins\white\ie6\n.png" />
+    <Content Include="js\artDialog4.1.6\skins\white\ie6\ne.png" />
+    <Content Include="js\artDialog4.1.6\skins\white\ie6\nw.png" />
+    <Content Include="js\artDialog4.1.6\skins\white\ie6\s.png" />
+    <Content Include="js\artDialog4.1.6\skins\white\ie6\se.png" />
+    <Content Include="js\artDialog4.1.6\skins\white\ie6\sw.png" />
+    <Content Include="js\artDialog4.1.6\skins\white\ie6\w.png" />
+    <Content Include="js\artDialog4.1.6\skins\white\pop_bg.png" />
+    <Content Include="js\artDialog4.1.6\_doc\ajaxContent\content.html" />
+    <Content Include="js\artDialog4.1.6\_doc\ajaxContent\googleMaps.html" />
+    <Content Include="js\artDialog4.1.6\_doc\ajaxContent\login.html" />
+    <Content Include="js\artDialog4.1.6\_doc\API.html" />
+    <Content Include="js\artDialog4.1.6\_doc\demo.css" />
+    <Content Include="js\artDialog4.1.6\_doc\demo.js" />
+    <Content Include="js\artDialog4.1.6\_doc\down.html" />
+    <Content Include="js\artDialog4.1.6\_doc\frameset.html" />
+    <Content Include="js\artDialog4.1.6\_doc\googleMaps.html" />
+    <Content Include="js\artDialog4.1.6\_doc\helloWorld.html" />
+    <Content Include="js\artDialog4.1.6\_doc\highlight\AUTHORS.en.txt" />
+    <Content Include="js\artDialog4.1.6\_doc\highlight\export.html" />
+    <Content Include="js\artDialog4.1.6\_doc\highlight\highlight.js" />
+    <Content Include="js\artDialog4.1.6\_doc\highlight\highlight.pack.js" />
+    <Content Include="js\artDialog4.1.6\_doc\highlight\languages\javascript.js" />
+    <Content Include="js\artDialog4.1.6\_doc\highlight\readme.eng.txt" />
+    <Content Include="js\artDialog4.1.6\_doc\highlight\styles\magula.css" />
+    <Content Include="js\artDialog4.1.6\_doc\highlight\test.html" />
+    <Content Include="js\artDialog4.1.6\_doc\iframe.html" />
+    <Content Include="js\artDialog4.1.6\_doc\iframeA.html" />
+    <Content Include="js\artDialog4.1.6\_doc\iframeB.html" />
+    <Content Include="js\artDialog4.1.6\_doc\iframeTop.html" />
+    <Content Include="js\artDialog4.1.6\_doc\iframe_frameset.html" />
+    <Content Include="js\artDialog4.1.6\_doc\images\alipay.jpg" />
+    <Content Include="js\artDialog4.1.6\_doc\images\bg.png" />
+    <Content Include="js\artDialog4.1.6\_doc\images\bottom.png" />
+    <Content Include="js\artDialog4.1.6\_doc\images\doc.png" />
+    <Content Include="js\artDialog4.1.6\_doc\images\lixiaolong.png" />
+    <Content Include="js\artDialog4.1.6\_doc\images\logo.png" />
+    <Content Include="js\artDialog4.1.6\_doc\images\opensource.gif" />
+    <Content Include="js\artDialog4.1.6\_doc\images\photo.jpg" />
+    <Content Include="js\artDialog4.1.6\_doc\images\text.png" />
+    <Content Include="js\artDialog4.1.6\_doc\labs.html" />
+    <Content Include="js\artDialog4.1.6\_doc\license.html" />
+    <Content Include="js\artDialog4.1.6\_doc\log.html" />
+    <Content Include="js\artDialog4.1.6\_doc\login_iframe.html" />
+    <Content Include="js\artDialog4.1.6\_doc\login_iframe_2.html" />
+    <Content Include="js\artDialog4.1.6\_doc\new.html" />
+    <Content Include="js\artDialog4.1.6\_doc\plugin.iframe.html" />
+    <Content Include="js\artDialog4.1.6\_doc\topFrame.html" />
+    <Content Include="js\artDialog4.1.6\_doc\upd.txt" />
+    <Content Include="js\autoComplete\AjaxMask.js" />
+    <Content Include="js\autoComplete\indicator.gif" />
+    <Content Include="js\autoComplete\jquery.autocomplete.css" />
+    <Content Include="js\autoComplete\jquery.autocomplete.js" />
+    <Content Include="js\autoComplete\jquery.autocomplete.min.js" />
+    <Content Include="js\autoComplete\jquery.autocomplete.pack.js" />
+    <Content Include="js\bgiframe-2.1.2-1\jquery.bgiframe.js" />
+    <Content Include="js\bgiframe-2.1.2-1\LICENSE.txt" />
+    <Content Include="js\bgiframe-2.1.2-1\test.html" />
+    <Content Include="js\common.js" />
+    <Content Include="js\datepicker\calendar.js" />
+    <Content Include="js\datepicker\config.js" />
+    <Content Include="js\datepicker\images\date_confirm.gif" />
+    <Content Include="js\datepicker\images\date_larr.gif" />
+    <Content Include="js\datepicker\images\date_rarr.gif" />
+    <Content Include="js\datepicker\images\date_reset.gif" />
+    <Content Include="js\datepicker\js\date\datepicker.js" />
+    <Content Include="js\datepicker\js\date\eye.js" />
+    <Content Include="js\datepicker\js\date\layout.js" />
+    <Content Include="js\datepicker\js\date\layoutNew.js" />
+    <Content Include="js\datepicker\lang\en.js" />
+    <Content Include="js\datepicker\lang\zh-cn.js" />
+    <Content Include="js\datepicker\lang\zh-tw.js" />
+    <Content Include="js\datepicker\My97DatePicker.htm" />
+    <Content Include="js\datepicker\skin\datePicker.gif" />
+    <Content Include="js\datepicker\skin\default\datepicker.css" />
+    <Content Include="js\datepicker\skin\default\img.gif" />
+    <Content Include="js\datepicker\skin\WdatePicker.css" />
+    <Content Include="js\datepicker\skin\whyGreen\bg.jpg" />
+    <Content Include="js\datepicker\skin\whyGreen\datepicker.css" />
+    <Content Include="js\datepicker\skin\whyGreen\img.gif" />
+    <Content Include="js\datepicker\style\date\datepicker.css" />
+    <Content Include="js\datepicker\WdatePicker.js" />
+    <Content Include="js\jquery-1.7.1.min.js" />
+    <Content Include="js\jquery.cookie.js" />
+    <Content Include="js\zoom\css\zoom.css" />
+    <Content Include="js\zoom\img\addimg.jpg" />
+    <Content Include="js\zoom\img\icons\arrows.png" />
+    <Content Include="js\zoom\img\icons\close.png" />
+    <Content Include="js\zoom\img\loading.gif" />
+    <Content Include="js\zoom\img\spinner.gif" />
+    <Content Include="js\zoom\js\jquery-2.1.4.min.js" />
+    <Content Include="js\zoom\js\zoom.js" />
+    <Content Include="js\zoom\js\zoom.min.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="monitor\AddCustomer.aspx" />
+    <Content Include="monitor\AddTask.aspx" />
+    <Content Include="monitor\CustomerList.aspx" />
+    <Content Include="monitor\CustomerStatistics.aspx" />
+    <Content Include="monitor\CustomerUploadImage.aspx" />
+    <Content Include="monitor\MoneyStatistics.aspx" />
+    <Content Include="monitor\MyTaskList.aspx" />
+    <Content Include="monitor\ScheduleList.aspx" />
+    <Content Include="monitor\TaskList.aspx" />
+    <Content Include="monitor\TaskStatistics.aspx" />
+    <Content Include="monitor\UpdateTaskProject.aspx" />
+    <Content Include="monitor\UploadImage.aspx" />
+    <Content Include="monitor\ViewImage.aspx" />
+    <Content Include="monitor\ViewPlan.aspx" />
+    <Content Include="monitor\ViewReport.aspx" />
+    <Content Include="monitor\ViewTaskImage.aspx" />
+    <Content Include="uc\Footer.ascx" />
+    <Content Include="uc\Header.ascx" />
+    <Content Include="uc\Keyword.ascx" />
+    <Content Include="uc\UserMenu.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ashx\Action.ashx.cs">
+      <DependentUpon>Action.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ashx\CustomerUploadImageFile.ashx.cs">
+      <DependentUpon>CustomerUploadImageFile.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ashx\login.ashx.cs">
+      <DependentUpon>login.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ashx\UploadExcelFile.ashx.cs">
+      <DependentUpon>UploadExcelFile.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ashx\UploadImageFile.ashx.cs">
+      <DependentUpon>UploadImageFile.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="monitor\AddCustomer.aspx.cs">
+      <DependentUpon>AddCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="monitor\AddCustomer.aspx.designer.cs">
+      <DependentUpon>AddCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="monitor\AddTask.aspx.cs">
+      <DependentUpon>AddTask.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="monitor\AddTask.aspx.designer.cs">
+      <DependentUpon>AddTask.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="monitor\CustomerList.aspx.cs">
+      <DependentUpon>CustomerList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="monitor\CustomerList.aspx.designer.cs">
+      <DependentUpon>CustomerList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="monitor\CustomerStatistics.aspx.cs">
+      <DependentUpon>CustomerStatistics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="monitor\CustomerStatistics.aspx.designer.cs">
+      <DependentUpon>CustomerStatistics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="monitor\CustomerUploadImage.aspx.cs">
+      <DependentUpon>CustomerUploadImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="monitor\CustomerUploadImage.aspx.designer.cs">
+      <DependentUpon>CustomerUploadImage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="monitor\MoneyStatistics.aspx.cs">
+      <DependentUpon>MoneyStatistics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="monitor\MoneyStatistics.aspx.designer.cs">
+      <DependentUpon>MoneyStatistics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="monitor\MyTaskList.aspx.cs">
+      <DependentUpon>MyTaskList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="monitor\MyTaskList.aspx.designer.cs">
+      <DependentUpon>MyTaskList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="monitor\ScheduleList.aspx.cs">
+      <DependentUpon>ScheduleList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="monitor\ScheduleList.aspx.designer.cs">
+      <DependentUpon>ScheduleList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="monitor\TaskList.aspx.cs">
+      <DependentUpon>TaskList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="monitor\TaskList.aspx.designer.cs">
+      <DependentUpon>TaskList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="monitor\TaskStatistics.aspx.cs">
+      <DependentUpon>TaskStatistics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="monitor\TaskStatistics.aspx.designer.cs">
+      <DependentUpon>TaskStatistics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="monitor\UpdateTaskProject.aspx.cs">
+      <DependentUpon>UpdateTaskProject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="monitor\UpdateTaskProject.aspx.designer.cs">
+      <DependentUpon>UpdateTaskProject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="monitor\UploadImage.aspx.cs">
+      <DependentUpon>UploadImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="monitor\UploadImage.aspx.designer.cs">
+      <DependentUpon>UploadImage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="monitor\ViewImage.aspx.cs">
+      <DependentUpon>ViewImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="monitor\ViewImage.aspx.designer.cs">
+      <DependentUpon>ViewImage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="monitor\ViewPlan.aspx.cs">
+      <DependentUpon>ViewPlan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="monitor\ViewPlan.aspx.designer.cs">
+      <DependentUpon>ViewPlan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="monitor\ViewReport.aspx.cs">
+      <DependentUpon>ViewReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="monitor\ViewReport.aspx.designer.cs">
+      <DependentUpon>ViewReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="monitor\ViewTaskImage.aspx.cs">
+      <DependentUpon>ViewTaskImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="monitor\ViewTaskImage.aspx.designer.cs">
+      <DependentUpon>ViewTaskImage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="uc\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uc\Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="uc\Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uc\Header.ascx.designer.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="uc\Keyword.ascx.cs">
+      <DependentUpon>Keyword.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uc\Keyword.ascx.designer.cs">
+      <DependentUpon>Keyword.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="uc\UserMenu.ascx.cs">
+      <DependentUpon>UserMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uc\UserMenu.ascx.designer.cs">
+      <DependentUpon>UserMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="_code\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_code\Exif.cs" />
+    <Compile Include="_code\ucPageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_code\UserManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ashx\UploadExcelFile.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dal\Dal.csproj">
+      <Project>{E018B6C0-231B-401C-AE5A-E8508F58F3E1}</Project>
+      <Name>Dal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{4816EFCA-21D1-4EEF-AB81-AEE82427B182}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ashx\login.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ashx\UploadImageFile.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ashx\Action.ashx" />
+    <Content Include="ashx\CustomerUploadImageFile.ashx" />
+    <None Include="js\artDialog4.1.6\skins\grey\ie6\Thumbs.db" />
+    <None Include="js\artDialog4.1.6\skins\grey\Thumbs.db" />
+    <None Include="js\artDialog4.1.6\skins\white\ie6\Thumbs.db" />
+    <None Include="js\artDialog4.1.6\skins\white\Thumbs.db" />
+    <None Include="js\artDialog4.1.6\_doc\ajaxContent\content.json" />
+    <None Include="js\artDialog4.1.6\_doc\commercial_license.doc" />
+    <None Include="js\artDialog4.1.6\_doc\highlight\LICENSE" />
+    <None Include="js\bgiframe-2.1.2-1\ChangeLog.markdown" />
+    <None Include="js\bgiframe-2.1.2-1\README.markdown" />
+    <None Include="Properties\PublishProfiles\outdoor.pubxml" />
+    <Content Include="xlsTemplate\ReportFrame.xls" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>17560</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

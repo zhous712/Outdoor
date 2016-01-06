@@ -1,0 +1,2 @@
+2015-12-03 09:01:25,996[19]>>RollingLogFileAppender> IMG_20150925_131945.jpgµÄcontentType=image/jpeg£»fileType=jpg
+2015-12-03 09:02:12,634[34]>>RollingLogFileAppender> 635810336358051343.jpgµÄcontentType=image/jpeg£»fileType=jpg

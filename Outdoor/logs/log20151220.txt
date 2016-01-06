@@ -1,0 +1,4 @@
+2015-12-20 11:00:37,242[8]>>RollingLogFileAppender> 635810336358051343.jpg的contentType=image/jpeg；fileType=jpg
+2015-12-20 11:27:08,761[15]>>RollingLogFileAppender> 6.jpg的contentType=image/jpeg；fileType=jpg
+2015-12-20 11:27:58,602[15]>>RollingLogFileAppender> 635810336358051343.jpg的contentType=image/jpeg；fileType=jpg
+2015-12-20 11:33:30,653[24]>>RollingLogFileAppender> IMG_20150925_131945.jpg的contentType=image/jpeg；fileType=jpg

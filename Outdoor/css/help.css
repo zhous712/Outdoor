@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+.my_left { float: left; width: 150px; border: 1px solid #CACACA; color: #6E6E6E; }
+#myRadiobuy .main{ float: right; display: inline; width: 765px; border-top: 1px solid #4FB5B5; background: url("../images/bg_bodycenter_1px.png") repeat-x center top;}
+.my_right { float: right; display: inline; width: 765px; }
+.main_title{ width:765px;}
+.my_left .hover { background: none repeat scroll 0 0 #CAE9E9;}
+.yangli{ clear:both; overflow:hidden; }
+.yangli h3{ padding:14px 0 10px 20px; text-align:left; color:#0074bc; font-size:14px;}
+.yangli p img{ display:block; margin-bottom:10px;}
+.yangli p em{ display:block; padding-bottom:10px; padding-left:20px;}
+.my_radio h2 { width:150px; color: #0074bc;  text-align:center; font-family: "微软雅黑","Tahoma, Geneva, sans-serif"; font-size: 14px; padding: 10px 0 5px 0px;}
+.main_title .line1px{ width:1px; background:url(../images/li_gray_1px.gif) no-repeat center; font-size:0; padding:0; overflow:hidden;}
+
+
+/**宽度调整为1000px**/
+#myRadiobuy .main,.my_right,.main_title{ width:805px;}
+

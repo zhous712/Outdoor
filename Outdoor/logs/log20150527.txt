@@ -1,0 +1,4 @@
+2015-05-27 08:51:15,253[11]>>RollingLogFileAppender> IMG_20150513_100537.jpgµÄcontentType=image/jpeg£»fileType=jpg
+2015-05-27 08:51:36,509[3]>>RollingLogFileAppender> ÅÅÆÚ.xlsxµÄcontentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet£»fileType=xlsx
+2015-05-27 08:51:37,994[6]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-05-27 08:51:39,353[6]>>RollingLogFileAppender> AddTask.Resolve() end

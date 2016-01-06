@@ -1,0 +1,5 @@
+2015-10-21 11:36:45,849[17]>>RollingLogFileAppender> 证明.jpg的contentType=image/jpeg；fileType=jpg
+2015-10-21 11:42:55,264[26]>>RollingLogFileAppender> preview.png的contentType=image/png；fileType=png
+2015-10-21 11:56:17,772[11]>>RollingLogFileAppender> IMG_20150925_131945.jpg的contentType=image/jpeg；fileType=jpg
+2015-10-21 12:00:01,966[8]>>RollingLogFileAppender> IMG_20150925_131945.jpg的contentType=image/jpeg；fileType=jpg
+2015-10-21 12:01:23,761[34]>>RollingLogFileAppender> IMG_20150925_131945.jpg的contentType=image/jpeg；fileType=jpg

@@ -1,0 +1,16 @@
+2015-12-29 16:06:26,523[7]>>RollingLogFileAppender> 雪佛兰全车系-烟台.xls的contentType=application/vnd.ms-excel；fileType=xls
+2015-12-29 16:06:27,890[6]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-12-29 16:08:27,582[6]>>RollingLogFileAppender> 雪佛兰全车系-烟台.xls的contentType=application/vnd.ms-excel；fileType=xls
+2015-12-29 16:09:11,845[8]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-12-29 16:12:26,599[19]>>RollingLogFileAppender> 雪佛兰全车系-烟台.xls的contentType=application/vnd.ms-excel；fileType=xls
+2015-12-29 16:12:28,945[20]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-12-29 16:12:45,344[20]>>RollingLogFileAppender> 雪佛兰全车系-烟台.xls的contentType=application/vnd.ms-excel；fileType=xls
+2015-12-29 16:12:58,685[17]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-12-29 16:15:30,203[29]>>RollingLogFileAppender> 雪佛兰全车系-烟台.xls的contentType=application/vnd.ms-excel；fileType=xls
+2015-12-29 16:15:33,985[22]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-12-29 16:18:47,144[32]>>RollingLogFileAppender> 雪佛兰全车系-潍坊.xls的contentType=application/vnd.ms-excel；fileType=xls
+2015-12-29 16:18:47,165[32]>>RollingLogFileAppender> 雪佛兰全车系-烟台.xls的contentType=application/vnd.ms-excel；fileType=xls
+2015-12-29 16:18:53,761[35]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-12-29 16:18:56,529[35]>>RollingLogFileAppender> AddTask.Resolve() end
+2015-12-29 16:18:56,537[35]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-12-29 16:18:58,003[35]>>RollingLogFileAppender> AddTask.Resolve() end

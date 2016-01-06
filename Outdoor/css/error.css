@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+/*错误页*/
+.error_box,.about_my{ width:890px; margin:auto; padding:40px 0; color:#6e6e6e}
+.err_left { padding-top:30px; padding-left:150px}
+.err_right { width:407px;  padding:25px 0px 0 50px;}
+.err_jump { line-height:28px; line-height:28px; font-size:14px; padding-right:8px}
+.err_jump span { font-weight:bold; color:#cf1820; }
+.err_jump span a{ text-decoration:underline; color:#cf1820; }
+.err_jump img { vertical-align:middle; margin:3px 8px; border:0px; display:inline;}
+.err_result h3 { font-size:14px; font-weight:bold;}
+.err_result { padding-top:10px; line-height:30px;}
+.err_intr { color:#9f9f9f; padding-top:20px;}
+.err_wid { width:520px; padding-top:20px;}
+.err_menu a { float:left; line-height:20px}
+.err_menu a:hover { color:#fff}
+/*关于我们*/
+.about_my { padding:70px 0}
+.abo_left { width:420px; float:left; padding:50px 0 0 30px}
+.abo_left label,.abo_left p { float:left}
+.abo_left label { text-align:right; font-weight:bold; width:80px}
+.ab { clear:both; padding:5px 0; overflow:hidden}
+
+.kt_top { padding-top:45px}
+.no_kt_left { padding-left:80px}

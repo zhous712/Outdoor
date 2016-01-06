@@ -1,0 +1,35 @@
+2015-05-18 12:43:38,384[3]>>RollingLogFileAppender> IMG_20150513_100537.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-18 12:44:51,747[3]>>RollingLogFileAppender> IMG_20150513_100537.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-18 12:45:51,354[9]>>RollingLogFileAppender> IMG_20150513_100537.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-18 12:46:50,190[8]>>RollingLogFileAppender> IMG_20150513_100537.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-18 12:46:59,978[8]>>RollingLogFileAppender> test.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-05-18 12:47:01,494[3]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-05-18 12:47:01,944[3]>>RollingLogFileAppender> AddTask.Resolve() errornum=1 err=System.InvalidCastException: 无法将类型为“NPOI.XSSF.UserModel.XSSFCell”的对象强制转换为类型“System.IConvertible”。
+   在 System.Convert.ToDecimal(Object value)
+   在 Outdoor.monitor.AddTask.Resolve(Int32 tid, String path, String file) 位置 E:\www\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 177
+2015-05-18 12:47:01,954[3]>>RollingLogFileAppender> AddTask.Resolve() end
+2015-05-18 12:47:22,770[9]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-05-18 12:48:51,906[9]>>RollingLogFileAppender> AddTask.Resolve() errornum=1 err=System.InvalidCastException: 无法将类型为“NPOI.XSSF.UserModel.XSSFCell”的对象强制转换为类型“System.IConvertible”。
+   在 System.Convert.ToDecimal(Object value)
+   在 Outdoor.monitor.AddTask.Resolve(Int32 tid, String path, String file) 位置 E:\www\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 177
+2015-05-18 12:48:56,950[9]>>RollingLogFileAppender> AddTask.Resolve() end
+2015-05-18 12:50:02,825[20]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-05-18 12:53:43,336[20]>>RollingLogFileAppender> AddTask.Resolve() errornum=1 err=System.InvalidCastException: 无法将类型为“NPOI.XSSF.UserModel.XSSFCell”的对象强制转换为类型“System.IConvertible”。
+   在 System.Convert.ToDecimal(Object value)
+   在 Outdoor.monitor.AddTask.Resolve(Int32 tid, String path, String file) 位置 E:\www\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 177
+2015-05-18 12:53:43,341[20]>>RollingLogFileAppender> AddTask.Resolve() end
+2015-05-18 12:54:39,153[23]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-05-18 12:54:39,800[23]>>RollingLogFileAppender> AddTask.Resolve() end
+2015-05-18 12:54:54,814[22]>>RollingLogFileAppender> IMG_20150513_100537.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-18 12:55:00,827[22]>>RollingLogFileAppender> test.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-05-18 12:55:22,269[27]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-05-18 12:56:18,953[27]>>RollingLogFileAppender> AddTask.Resolve() end
+2015-05-18 12:57:14,286[27]>>RollingLogFileAppender> IMG_20150513_100537.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-18 12:57:22,082[20]>>RollingLogFileAppender> test.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-05-18 12:57:31,269[27]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-05-18 12:58:00,127[27]>>RollingLogFileAppender> AddTask.Resolve() errornum=5 err=System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Convert.ToDecimal(String value)
+   在 Outdoor.monitor.AddTask.Resolve(Int32 tid, String path, String file) 位置 E:\www\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 177
+2015-05-18 12:58:00,134[27]>>RollingLogFileAppender> AddTask.Resolve() end

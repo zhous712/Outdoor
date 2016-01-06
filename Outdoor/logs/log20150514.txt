@@ -1,0 +1,78 @@
+2015-05-14 13:58:12,478[21]>> RollingLogFileAppender> IMG_20150513_100537.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-14 16:36:36,325[138]>> RollingLogFileAppender> IMG_20150513_100537.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-14 16:39:37,314[139]>> RollingLogFileAppender> test.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-05-14 16:42:59,918[134]>> RollingLogFileAppender> IMG_20150513_100537.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-14 16:43:06,254[138]>> RollingLogFileAppender> test.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-05-14 16:44:49,549[144]>> RollingLogFileAppender> IMG_20150513_100537.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-14 16:45:07,783[159]>> RollingLogFileAppender> test.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-05-14 16:45:51,202[149]>> RollingLogFileAppender> AddTask.Parse() begin file=E:\Outdoor\TaskXLS\635672187077/63567218707783/6356721870778374/635672187077837463.xlsx
+2015-05-14 16:45:52,242[149]>> RollingLogFileAppender> AddTask.Parse() err=System.Runtime.InteropServices.COMException (0x800A03EC): Microsoft Excel 不能访问文件“E:\Outdoor\TaskXLS\635672187077\63567218707783\6356721870778374\635672187077837463.xlsx”。 可能的原因有以下几个:
+
+? 文件名称或路径不存在。
+? 文件正被其他程序使用。
+? 您正要保存的工作簿与当前打开的工作簿同名。
+   在 Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   在 Outdoor.monitor.AddTask.Parse(String path, String file) 位置 E:\www\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 141
+2015-05-14 16:50:28,513[107]>> RollingLogFileAppender> IMG_20150513_100537.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-14 16:50:40,879[142]>> RollingLogFileAppender> test.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-05-14 16:50:50,521[142]>> RollingLogFileAppender> AddTask.Parse() begin file=E:\Outdoor\TaskXLS\635672190408/63567219040879/6356721904087979/635672190408797983.xlsx
+2015-05-14 16:50:50,927[142]>> RollingLogFileAppender> AddTask.Parse() err=System.Runtime.InteropServices.COMException (0x800A03EC): Microsoft Excel 不能访问文件“E:\Outdoor\TaskXLS\635672190408\63567219040879\6356721904087979\635672190408797983.xlsx”。 可能的原因有以下几个:
+
+? 文件名称或路径不存在。
+? 文件正被其他程序使用。
+? 您正要保存的工作簿与当前打开的工作簿同名。
+   在 Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   在 Outdoor.monitor.AddTask.Parse(String path, String file) 位置 E:\www\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 142
+2015-05-14 16:52:07,041[123]>> RollingLogFileAppender> IMG_20150513_100537.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-14 16:52:13,174[142]>> RollingLogFileAppender> test.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-05-14 16:52:21,564[141]>> RollingLogFileAppender> AddTask.Parse() begin file=E:\Outdoor\TaskXLS\635672191331/63567219133174/6356721913317407/635672191331740772.xlsx
+2015-05-14 16:54:12,312[141]>> RollingLogFileAppender> AddTask.Parse() err=System.Runtime.InteropServices.COMException (0x800A03EC): Microsoft Excel 不能访问文件“E:\Outdoor\TaskXLS\635672191331\63567219133174\6356721913317407\635672191331740772.xlsx”。 可能的原因有以下几个:
+
+? 文件名称或路径不存在。
+? 文件正被其他程序使用。
+? 您正要保存的工作簿与当前打开的工作簿同名。
+   在 Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   在 Outdoor.monitor.AddTask.Parse(String path, String file) 位置 E:\www\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 142
+2015-05-14 17:02:10,406[116]>> RollingLogFileAppender> IMG_20150513_100537.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-14 17:02:16,389[116]>> RollingLogFileAppender> test.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-05-14 17:02:32,745[116]>> RollingLogFileAppender> AddTask.Parse() begin file=E:\Outdoor\TaskXLS\635672197363/63567219736390/6356721973639057/635672197363905793.xlsx
+2015-05-14 17:02:33,143[116]>> RollingLogFileAppender> AddTask.Parse() err=System.Runtime.InteropServices.COMException (0x800A03EC): Microsoft Excel 不能访问文件“E:\Outdoor\TaskXLS\635672197363\63567219736390\6356721973639057\635672197363905793.xlsx”。 可能的原因有以下几个:
+
+? 文件名称或路径不存在。
+? 文件正被其他程序使用。
+? 您正要保存的工作簿与当前打开的工作簿同名。
+   在 Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   在 Outdoor.monitor.AddTask.Parse(String path, String file) 位置 E:\www\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 142
+2015-05-14 17:03:15,914[128]>> RollingLogFileAppender> AddTask.Parse() begin file=E:\Outdoor\TaskXLS\635672197363/63567219736390/6356721973639057/635672197363905793.xlsx
+2015-05-14 17:03:16,290[128]>> RollingLogFileAppender> AddTask.Parse() err=System.Runtime.InteropServices.COMException (0x800A03EC): Microsoft Excel 不能访问文件“E:\Outdoor\TaskXLS\635672197363\63567219736390\6356721973639057\635672197363905793.xlsx”。 可能的原因有以下几个:
+
+? 文件名称或路径不存在。
+? 文件正被其他程序使用。
+? 您正要保存的工作簿与当前打开的工作簿同名。
+   在 Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   在 Outdoor.monitor.AddTask.Parse(String path, String file) 位置 E:\www\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 142
+2015-05-14 17:03:33,139[153]>> RollingLogFileAppender> AddTask.Parse() begin file=E:\Outdoor\TaskXLS\635672197363/63567219736390/6356721973639057/635672197363905793.xlsx
+2015-05-14 17:09:35,216[153]>> RollingLogFileAppender> AddTask.Parse() err=System.Runtime.InteropServices.COMException (0x800A03EC): Microsoft Excel 不能访问文件“E:\Outdoor\TaskXLS\635672197363\63567219736390\6356721973639057\635672197363905793.xlsx”。 可能的原因有以下几个:
+
+? 文件名称或路径不存在。
+? 文件正被其他程序使用。
+? 您正要保存的工作簿与当前打开的工作簿同名。
+   在 Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   在 Outdoor.monitor.AddTask.Parse(String path, String file) 位置 E:\www\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 142
+2015-05-14 17:41:18,580[10]>> RollingLogFileAppender> IMG_20150513_100537.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-14 17:41:36,102[10]>> RollingLogFileAppender> test.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-05-14 17:41:44,418[10]>> RollingLogFileAppender> AddTask.Parse() begin file=E:\Outdoor\TaskXLS\635672220961/63567222096103/6356722209610354/635672220961035471.xlsx
+2015-05-14 17:42:11,235[10]>> RollingLogFileAppender> AddTask.Resolve() begin
+2015-05-14 17:43:45,065[10]>> RollingLogFileAppender> AddTask.Resolve() errornum=1 err=System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 Outdoor.monitor.AddTask.Resolve(Int32 tid, String path, String file) 位置 E:\www\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 92
+2015-05-14 17:43:45,072[10]>> RollingLogFileAppender> AddTask.Resolve() end
+2015-05-14 17:46:48,198[7]>> RollingLogFileAppender> IMG_20150513_100537.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-14 17:46:59,832[8]>> RollingLogFileAppender> test.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-05-14 17:47:01,057[18]>> RollingLogFileAppender> AddTask.Parse() begin file=E:\Outdoor\TaskXLS\635672224198/63567222419832/6356722241983206/635672224198320633.xlsx
+2015-05-14 17:47:02,862[18]>> RollingLogFileAppender> AddTask.Resolve() begin
+2015-05-14 17:47:03,324[18]>> RollingLogFileAppender> AddTask.Resolve() end
+2015-05-14 17:58:25,614[18]>> RollingLogFileAppender> test.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-05-14 17:58:38,042[14]>> RollingLogFileAppender> IMG_20150513_100537.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-14 17:58:39,181[13]>> RollingLogFileAppender> AddTask.Parse() begin file=E:\Outdoor\TaskXLS\635672231056/63567223105638/6356722310563828/635672231056382892.xlsx
+2015-05-14 17:58:40,917[13]>> RollingLogFileAppender> AddTask.Resolve() begin
+2015-05-14 17:58:41,304[13]>> RollingLogFileAppender> AddTask.Resolve() end

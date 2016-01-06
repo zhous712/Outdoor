@@ -1,0 +1,4 @@
+2015-05-22 10:26:12,226[59]>>RollingLogFileAppender> IMG_20150513_100537.jpg的contentType=image/jpeg；fileType=jpg
+2015-05-22 10:26:17,366[59]>>RollingLogFileAppender> 排期模板测试.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2015-05-22 10:26:19,134[61]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-05-22 10:26:19,809[61]>>RollingLogFileAppender> AddTask.Resolve() end

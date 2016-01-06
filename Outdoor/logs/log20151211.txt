@@ -1,0 +1,6 @@
+2015-12-11 14:49:31,331[7]>>RollingLogFileAppender> IMG_20150925_131945.jpg的contentType=image/jpeg；fileType=jpg
+2015-12-11 14:54:05,163[22]>>RollingLogFileAppender> 635810336358051343.jpg的contentType=image/jpeg；fileType=jpg
+2015-12-11 15:48:57,947[13]>>RollingLogFileAppender> 5s.JPG的contentType=image/jpeg；fileType=jpg
+2015-12-11 15:51:10,902[7]>>RollingLogFileAppender> 三星S5.jpg的contentType=image/jpeg；fileType=jpg
+2015-12-11 15:54:49,660[30]>>RollingLogFileAppender> 魅族M2.jpg的contentType=image/jpeg；fileType=jpg
+2015-12-11 15:59:47,953[38]>>RollingLogFileAppender> 魅族M2.jpg的contentType=image/jpeg；fileType=jpg

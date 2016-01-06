@@ -1,0 +1,26 @@
+2015-12-14 14:04:31,187[3]>>RollingLogFileAppender> 户外模板.xls的contentType=application/vnd.ms-excel；fileType=xls
+2015-12-14 14:04:32,102[6]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-12-14 14:04:32,578[6]>>RollingLogFileAppender> AddTask.Resolve() end
+2015-12-14 14:06:13,016[9]>>RollingLogFileAppender> 户外模板.xls的contentType=application/vnd.ms-excel；fileType=xls
+2015-12-14 14:06:14,332[7]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-12-14 14:06:14,512[7]>>RollingLogFileAppender> AddTask.Resolve() end
+2015-12-14 14:06:45,107[13]>>RollingLogFileAppender> 户外模板.xls的contentType=application/vnd.ms-excel；fileType=xls
+2015-12-14 14:06:46,274[8]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-12-14 14:13:18,103[21]>>RollingLogFileAppender> 户外模板.xls的contentType=application/vnd.ms-excel；fileType=xls
+2015-12-14 14:13:19,234[11]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-12-14 14:13:19,496[11]>>RollingLogFileAppender> AddTask.Resolve() end
+2015-12-14 14:14:52,213[22]>>RollingLogFileAppender> 户外模板.xls的contentType=application/vnd.ms-excel；fileType=xls
+2015-12-14 14:14:53,183[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-12-14 14:14:53,423[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2015-12-14 14:15:15,706[26]>>RollingLogFileAppender> 户外模板.xls的contentType=application/vnd.ms-excel；fileType=xls
+2015-12-14 14:15:16,635[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-12-14 14:15:16,778[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2015-12-14 14:15:45,284[3]>>RollingLogFileAppender> 户外模板.xls的contentType=application/vnd.ms-excel；fileType=xls
+2015-12-14 14:16:12,875[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-12-14 14:16:13,149[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2015-12-14 14:16:54,681[3]>>RollingLogFileAppender> 户外模板.xls的contentType=application/vnd.ms-excel；fileType=xls
+2015-12-14 14:17:03,960[20]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-12-14 14:18:14,596[20]>>RollingLogFileAppender> AddTask.Resolve() end
+2015-12-14 14:48:25,367[8]>>RollingLogFileAppender> 户外模板.xls的contentType=application/vnd.ms-excel；fileType=xls
+2015-12-14 14:48:36,873[7]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-12-14 14:48:37,179[7]>>RollingLogFileAppender> AddTask.Resolve() end

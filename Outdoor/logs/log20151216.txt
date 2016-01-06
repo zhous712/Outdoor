@@ -1,0 +1,4 @@
+2015-12-16 09:38:19,993[16]>>RollingLogFileAppender> 户外模板.xls的contentType=application/vnd.ms-excel；fileType=xls
+2015-12-16 09:42:49,926[25]>>RollingLogFileAppender> 户外模板.xls的contentType=application/vnd.ms-excel；fileType=xls
+2015-12-16 09:42:50,889[26]>>RollingLogFileAppender> AddTask.Resolve() begin
+2015-12-16 09:42:51,258[26]>>RollingLogFileAppender> AddTask.Resolve() end

@@ -1,0 +1,209 @@
+2016-01-06 09:47:06,822[39]>>RollingLogFileAppender> 雪佛兰全车系-东莞.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 09:47:11,526[40]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 09:57:26,067[23]>>RollingLogFileAppender> 雪佛兰全车系-东莞.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 09:57:29,310[25]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 09:58:48,349[25]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:04:36,757[52]>>RollingLogFileAppender> 雪佛兰全车系-贵阳.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:04:36,760[52]>>RollingLogFileAppender> 雪佛兰全车系-合肥.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:04:36,762[52]>>RollingLogFileAppender> 雪佛兰全车系-济宁.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:04:36,764[52]>>RollingLogFileAppender> 雪佛兰全车系-昆明.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:04:36,767[52]>>RollingLogFileAppender> 雪佛兰全车系-聊城.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:04:36,769[52]>>RollingLogFileAppender> 雪佛兰全车系-临沂.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:04:36,771[52]>>RollingLogFileAppender> 雪佛兰全车系-南昌.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:04:36,774[52]>>RollingLogFileAppender> 雪佛兰全车系-南京.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:04:36,776[52]>>RollingLogFileAppender> 雪佛兰全车系-宁波.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:04:36,778[52]>>RollingLogFileAppender> 雪佛兰全车系-青岛.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:04:36,781[52]>>RollingLogFileAppender> 雪佛兰全车系-沈阳.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:04:36,783[52]>>RollingLogFileAppender> 雪佛兰全车系-潍坊.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:04:36,785[52]>>RollingLogFileAppender> 雪佛兰全车系-烟台.XLS的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:04:36,788[52]>>RollingLogFileAppender> 雪佛兰全车系-郑州.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:04:36,790[52]>>RollingLogFileAppender> 雪佛兰全车系-重庆.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:04:42,327[13]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:04:53,363[13]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:04:53,371[13]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:05:02,419[13]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:05:02,431[13]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:05:05,088[13]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:05:05,107[13]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:05:13,483[13]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:05:13,489[13]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:05:15,027[13]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:05:15,045[13]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:05:18,532[13]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:05:18,544[13]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:05:27,370[13]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:05:27,378[13]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:05:38,554[13]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:05:38,567[13]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:05:44,960[13]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:05:44,964[13]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:06:05,339[13]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:06:05,353[13]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:06:17,202[13]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:06:17,209[13]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:06:20,603[13]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:06:20,610[13]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:06:22,204[13]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:06:22,214[13]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:06:29,555[13]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:06:29,562[13]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:06:36,953[13]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:27:26,225[3]>>RollingLogFileAppender> 雪佛兰全车系-郑州.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:27:30,266[8]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:27:33,778[8]>>RollingLogFileAppender> AddTask.Resolve() errornum=303 err=System.InvalidCastException: 无法将类型为“NPOI.HSSF.UserModel.HSSFCell”的对象强制转换为类型“System.IConvertible”。
+   在 System.Convert.ToDateTime(Object value)
+   在 AutoRadio.RadioSmart.Common.ConvertHelper.GetDateTime(Object obj)
+   在 Outdoor.monitor.AddTask.Resolve(Int32 tid, String path, String file) 位置 d:\glab\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 167
+2016-01-06 10:27:33,796[8]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:43:42,886[18]>>RollingLogFileAppender> 雪佛兰全车系-常州.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,902[18]>>RollingLogFileAppender> 雪佛兰全车系-东莞.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,904[18]>>RollingLogFileAppender> 雪佛兰全车系-贵阳.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,907[18]>>RollingLogFileAppender> 雪佛兰全车系-杭州.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,910[18]>>RollingLogFileAppender> 雪佛兰全车系-合肥.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,912[18]>>RollingLogFileAppender> 雪佛兰全车系-济南.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,915[18]>>RollingLogFileAppender> 雪佛兰全车系-济宁.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,917[18]>>RollingLogFileAppender> 雪佛兰全车系-昆明.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,919[18]>>RollingLogFileAppender> 雪佛兰全车系-聊城.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,921[18]>>RollingLogFileAppender> 雪佛兰全车系-临沂.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,924[18]>>RollingLogFileAppender> 雪佛兰全车系-南昌.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,926[18]>>RollingLogFileAppender> 雪佛兰全车系-南京.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,928[18]>>RollingLogFileAppender> 雪佛兰全车系-宁波.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,930[18]>>RollingLogFileAppender> 雪佛兰全车系-青岛.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,932[18]>>RollingLogFileAppender> 雪佛兰全车系-沈阳.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,934[18]>>RollingLogFileAppender> 雪佛兰全车系-石家庄.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,936[18]>>RollingLogFileAppender> 雪佛兰全车系-苏州.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,939[18]>>RollingLogFileAppender> 雪佛兰全车系-太原.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,941[18]>>RollingLogFileAppender> 雪佛兰全车系-潍坊.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,943[18]>>RollingLogFileAppender> 雪佛兰全车系-温州.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,945[18]>>RollingLogFileAppender> 雪佛兰全车系-无锡.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,947[18]>>RollingLogFileAppender> 雪佛兰全车系-武汉.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,949[18]>>RollingLogFileAppender> 雪佛兰全车系-西安.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,951[18]>>RollingLogFileAppender> 雪佛兰全车系-烟台.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,953[18]>>RollingLogFileAppender> 雪佛兰全车系-长沙.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,956[18]>>RollingLogFileAppender> 雪佛兰全车系-郑州.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:43:42,958[18]>>RollingLogFileAppender> 雪佛兰全车系-重庆.xlsx的contentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet；fileType=xlsx
+2016-01-06 10:43:42,960[18]>>RollingLogFileAppender> 雪佛兰全车系-淄博.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:48:37,243[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:48:41,015[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:49:35,042[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:49:38,170[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:49:38,177[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:49:43,654[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:49:43,660[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:49:50,303[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:49:50,309[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:49:56,157[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:49:56,165[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:50:02,373[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:50:02,379[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:50:04,060[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:50:04,068[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:50:09,753[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:50:09,759[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:50:11,238[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:50:11,244[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:50:14,047[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:50:14,053[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:50:20,226[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:50:20,233[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:50:27,008[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:50:27,015[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:50:32,605[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:50:32,611[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:50:39,526[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:50:39,534[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:50:45,752[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:50:45,757[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:50:52,459[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:50:52,465[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:50:57,792[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:50:57,798[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:51:03,455[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:51:03,464[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:51:06,247[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:51:06,255[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:51:08,958[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:51:08,965[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:51:14,652[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:51:14,657[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:51:21,669[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:51:21,674[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:51:26,964[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:51:26,969[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:51:28,373[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:51:28,378[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:51:34,800[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:51:34,805[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:51:37,988[19]>>RollingLogFileAppender> AddTask.Resolve() errornum=303 err=System.InvalidCastException: 无法将类型为“NPOI.HSSF.UserModel.HSSFCell”的对象强制转换为类型“System.IConvertible”。
+   在 System.Convert.ToDateTime(Object value)
+   在 AutoRadio.RadioSmart.Common.ConvertHelper.GetDateTime(Object obj)
+   在 Outdoor.monitor.AddTask.Resolve(Int32 tid, String path, String file) 位置 d:\glab\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 169
+2016-01-06 10:51:38,010[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:51:38,020[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:51:44,554[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:51:44,561[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:51:47,032[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:52:18,139[12]>>RollingLogFileAppender> 雪佛兰全车系-合肥.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:52:19,370[7]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:52:25,499[7]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 10:54:41,891[10]>>RollingLogFileAppender> 雪佛兰全车系-郑州.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 10:54:43,018[34]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 10:54:46,311[34]>>RollingLogFileAppender> AddTask.Resolve() errornum=303 err=System.InvalidCastException: 无法将类型为“NPOI.HSSF.UserModel.HSSFCell”的对象强制转换为类型“System.IConvertible”。
+   在 System.Convert.ToDateTime(Object value)
+   在 AutoRadio.RadioSmart.Common.ConvertHelper.GetDateTime(Object obj)
+   在 Outdoor.monitor.AddTask.Resolve(Int32 tid, String path, String file) 位置 d:\glab\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 169
+2016-01-06 10:54:46,335[34]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 11:04:38,265[40]>>RollingLogFileAppender> 雪佛兰全车系-烟台.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 11:04:38,281[40]>>RollingLogFileAppender> 雪佛兰全车系-长沙.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 11:04:38,284[40]>>RollingLogFileAppender> 雪佛兰全车系-郑州.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 11:04:39,317[8]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 11:04:39,485[8]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 11:04:49,702[8]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 11:04:49,709[8]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 11:04:54,027[8]>>RollingLogFileAppender> AddTask.Resolve() errornum=303 err=System.InvalidCastException: 无法将类型为“NPOI.HSSF.UserModel.HSSFCell”的对象强制转换为类型“System.IConvertible”。
+   在 System.Convert.ToDateTime(Object value)
+   在 AutoRadio.RadioSmart.Common.ConvertHelper.GetDateTime(Object obj)
+   在 Outdoor.monitor.AddTask.Resolve(Int32 tid, String path, String file) 位置 d:\glab\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 170
+2016-01-06 11:04:54,070[8]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 11:07:40,137[40]>>RollingLogFileAppender> 雪佛兰全车系-烟台.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 11:07:40,152[40]>>RollingLogFileAppender> 雪佛兰全车系-长沙.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 11:07:40,154[40]>>RollingLogFileAppender> 雪佛兰全车系-郑州.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 11:07:46,684[40]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 11:07:46,848[40]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 11:10:15,541[40]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 11:10:15,552[40]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 11:10:21,482[40]>>RollingLogFileAppender> AddTask.Resolve() errornum=303 err=System.InvalidCastException: 无法将类型为“NPOI.HSSF.UserModel.HSSFCell”的对象强制转换为类型“System.IConvertible”。
+   在 System.Convert.ToDateTime(Object value)
+   在 AutoRadio.RadioSmart.Common.ConvertHelper.GetDateTime(Object obj)
+   在 Outdoor.monitor.AddTask.Resolve(Int32 tid, String path, String file) 位置 d:\glab\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 170
+2016-01-06 11:10:21,512[40]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 11:12:00,214[40]>>RollingLogFileAppender> 雪佛兰全车系-烟台.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 11:12:00,216[40]>>RollingLogFileAppender> 雪佛兰全车系-长沙.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 11:12:00,218[40]>>RollingLogFileAppender> 雪佛兰全车系-郑州.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 11:12:11,941[40]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 11:12:21,510[40]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 11:13:00,374[40]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 11:13:07,650[40]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 11:13:19,008[40]>>RollingLogFileAppender> AddTask.Resolve() errornum=303 err=System.InvalidCastException: 无法将类型为“NPOI.HSSF.UserModel.HSSFCell”的对象强制转换为类型“System.IConvertible”。
+   在 System.Convert.ToDateTime(Object value)
+   在 AutoRadio.RadioSmart.Common.ConvertHelper.GetDateTime(Object obj)
+   在 Outdoor.monitor.AddTask.Resolve(Int32 tid, String path, String file) 位置 d:\glab\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 170
+2016-01-06 11:13:19,490[40]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 11:24:55,610[31]>>RollingLogFileAppender> 雪佛兰全车系-烟台.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 11:24:55,625[31]>>RollingLogFileAppender> 雪佛兰全车系-长沙.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 11:24:55,627[31]>>RollingLogFileAppender> 雪佛兰全车系-郑州.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 11:24:58,289[12]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 11:24:58,438[12]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 11:25:05,091[12]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 11:25:05,100[12]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 11:25:08,396[12]>>RollingLogFileAppender> AddTask.Resolve() errornum=303 err=System.InvalidCastException: 无法将类型为“NPOI.HSSF.UserModel.HSSFCell”的对象强制转换为类型“System.IConvertible”。
+   在 System.Convert.ToDateTime(Object value)
+   在 AutoRadio.RadioSmart.Common.ConvertHelper.GetDateTime(Object obj)
+   在 Outdoor.monitor.AddTask.Resolve(Int32 tid, String path, String file) 位置 d:\glab\Outdoor\Outdoor\monitor\AddTask.aspx.cs:行号 171
+2016-01-06 11:25:08,419[12]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 11:54:24,797[14]>>RollingLogFileAppender> 户外模板.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 11:54:26,292[19]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 11:54:26,561[19]>>RollingLogFileAppender> AddTask.Resolve() end
+2016-01-06 11:54:36,389[3]>>RollingLogFileAppender> 户外模板.xls的contentType=application/vnd.ms-excel；fileType=xls
+2016-01-06 11:54:37,502[31]>>RollingLogFileAppender> AddTask.Resolve() begin
+2016-01-06 11:54:37,627[31]>>RollingLogFileAppender> AddTask.Resolve() end
